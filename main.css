@@ -1,0 +1,45 @@
+body {
+    background-color: darkgoldenrod;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url('B Bardiya Bold_YasDL.com.ttf');
+}
+
+@font-face {
+    font-family: mySecoundFont;
+    src: url('B Baran Italic_YasDL.com.ttf');
+}
+
+@font-face {
+    font-family: myThirdFont;
+    src: url('B Davat_YasDL.com.ttf');
+}
+
+#sen-1 {
+    font-family: myFirstFont, fantasy;
+    border: black 4px solid;
+    padding-left: 10px;
+    height: 30px;
+    width: 100px;
+    background-color: honeydew;
+}
+
+#sen-2 {
+    font-family: mySecoundFont, sans-serif;
+    border: black 4px solid;
+    padding-left: 10px;
+    height: 30px;
+    width: 100px;
+    background-color: honeydew;
+}
+
+#sen-3 {
+    font-family: myThirdFont, cursive;
+    border: black 4px solid;
+    padding-left: 10px;
+    height: 30px;
+    width: 100px;
+    background-color: honeydew;
+}
