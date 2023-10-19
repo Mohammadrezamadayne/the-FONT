@@ -4,21 +4,21 @@ body {
 
 @font-face {
     font-family: myFirstFont;
-    src: url('B Bardiya Bold_YasDL.com.ttf');
+    src: url(bardiya.ttf);
 }
 
 @font-face {
     font-family: mySecoundFont;
-    src: url('B Baran Italic_YasDL.com.ttf');
+    src: url(baran.ttf);
 }
 
 @font-face {
     font-family: myThirdFont;
-    src: url('B Davat_YasDL.com.ttf');
+    src: url(davat.ttf);
 }
 
 #sen-1 {
-    font-family: myFirstFont, fantasy;
+    font-family: myFirstFont;
     border: black 4px solid;
     padding-left: 10px;
     height: 30px;
@@ -27,7 +27,7 @@ body {
 }
 
 #sen-2 {
-    font-family: mySecoundFont, sans-serif;
+    font-family: mySecoundFont;
     border: black 4px solid;
     padding-left: 10px;
     height: 30px;
